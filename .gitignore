@@ -1,0 +1,27 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.Python
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+
+# Local agent / Cursor tooling (not part of the deliverable)
+.agents/
+.cursor/
+skills-lock.json
+
+# Generated demo artifacts
+postmortems/*.md
+postmortems/*.txt
+!postmortems/.gitkeep
+
+# Personal drafts (keep locally, don't publish)
+ED_POST_DRAFT.md
